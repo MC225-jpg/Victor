@@ -38,3 +38,17 @@ num2 = int(input("Enter number 2:"))
 num3 = int(input("Enter number 3"))
 
 print("f{biggest} is the biggest number")
+MIN_AGE = 18
+
+user_age = int(input("Please enter your age?: "))
+if user_age < MIN_AGE:
+    print("sorry, you are too young for this activity.")
+elif user_age == MIN_AGE:
+    print("You have just reached the age to join this activity")
+else:
+    print("please enjoy this activity")
+if play == "y" or play == "n":
+    print("fYou have entered {play}")
+else:
+    print(:"You did not enter'y' or 'n'")
+ 
