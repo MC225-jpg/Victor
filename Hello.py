@@ -47,7 +47,7 @@ elif user_age == MIN_AGE:
     print("You have just reached the age to join this activity")
 else:
     print("please enjoy this activity")
-# if play == "y" or play == "n":
+# if play == "y" or play == "n":  play is not mentioned anywhere in the code before you are comparing it to 'y' ... so this code will not work....  Mr O'Brien
 #   print("fYou have entered {play}")
 #else:
 #    print(:"You did not enter'y' or 'n'")
