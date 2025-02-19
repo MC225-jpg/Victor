@@ -13,7 +13,7 @@ def random_problem():
     num_2 = random.randint(1, 10)
 
     operation = random.choice(list(operators.keys()))
-    answear = operators.get(operation)(num_1, num_2)
+    answer = operators.get(operation)(num_1, num_2)
     print(f'what is{num_1} {operation}{num_2}') 
     return answer
 
@@ -22,5 +22,3 @@ def ask_question():
     guess = float(input('Enter you answer '))
     return guess == answer
 
-    def game(): 
-        score = 0

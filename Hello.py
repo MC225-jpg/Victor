@@ -47,8 +47,8 @@ elif user_age == MIN_AGE:
     print("You have just reached the age to join this activity")
 else:
     print("please enjoy this activity")
-if play == "y" or play == "n":
-    print("fYou have entered {play}")
-else:
-    print(:"You did not enter'y' or 'n'")
+# if play == "y" or play == "n":
+#   print("fYou have entered {play}")
+#else:
+#    print(:"You did not enter'y' or 'n'")
  
